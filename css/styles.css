@@ -21,7 +21,6 @@
   color: #fff;
 }
 
-
 html {
   font-size: 62.5%;
 }
@@ -352,7 +351,7 @@ a {
 /* Plans */
 
 .plan {
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 
 .plan--popular {
@@ -453,7 +452,7 @@ a {
 }
 
 .quote__company {
-  color: var(--color-headings)
+  color: var(--color-headings);
   opacity: 0.4;
   font-size: 2rem;
   font-style: normal;
@@ -511,13 +510,13 @@ a {
 }
 
 .testimonial__image > .icon-container {
-  position: absolute; 
-  top: 3rem;  
+  position: absolute;
+  top: 3rem;
   right: -32px;
 }
 
 @media screen and (min-width: 768px) {
-  .testimonial .quote, 
+  .testimonial .quote,
   .testimonial .quote__author {
     font-size: 2.4rem;
   }
@@ -555,11 +554,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  
   .callout .grid--1x2 {
     grid-template-columns: 1fr auto;
   }
-  
+
   .callout__content {
     text-align: left;
   }
@@ -665,18 +663,18 @@ a {
   border-bottom: 1px solid #222;
 }
 
-.nav__item> a {
-  color: #d2d0db;  
-  transition: color .3s;
+.nav__item > a {
+  color: #d2d0db;
+  transition: color 0.3s;
 }
 
-.nav__item> a:hover {
-  color: #fff;  
+.nav__item > a:hover {
+  color: #fff;
 }
 
 .nav__toggler {
   opacity: 0.5;
-  transition: box-shadow .15s;
+  transition: box-shadow 0.15s;
   cursor: pointer;
 }
 
@@ -691,7 +689,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  
   .nav__toggler {
     display: none;
   }
@@ -722,11 +719,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  
   .hero {
     padding-top: 0;
   }
-  
+
   .hero__content {
     text-align: left;
     align-self: center;
@@ -755,8 +751,7 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  
-  .block-domain__prices{
+  .block-domain__prices {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 }
@@ -804,11 +799,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  
   .block-showcase .grid {
     grid-template-columns: 50% 50%;
   }
-  
+
   .block-showcase__image {
     justify-self: end;
   }
@@ -862,7 +856,7 @@ a {
 .footer__copyright {
   font-size: 2.1rem;
   color: #fff;
-  opacity: .3;
+  opacity: 0.3;
 }
 
 @media screen and (min-width: 768px) {
